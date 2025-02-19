@@ -1,14 +1,10 @@
 # MDI Code Example - Policy Funding Dashboard
 
-## Overview
-This project is a simple one-day deliverable React-based **Policy Funding Dashboard** that visualizes government funding across different policy areas. It uses **Chart.js** to display an interactive bar chart, with data filtering based on selected years.
+## 📌 Overview
+This project contains two simple **one-day deliverables** focused on **UI/UX Front-End development**.
 
-## Features
-- **Interactive Bar Chart**: Visualizes funding distribution across policy sectors.
-- **Dropdown Filtering**: Allows users to filter data by year.
-- **Modern UI**: Built with React and Chart.js for a clean, responsive experience.
-- **Easy to Extend**: New datasets and filtering options can be easily added.
-
-## Tech Stack
-- **Frontend**: React, JavaScript, CSS
-- **Data Visualization**: Chart.js, react-chartjs-2
+## 📂 Other Examples
+- 📝 **OCR & NLP Data Extraction**: Processing **United Nations General Assembly PDF files**  
+  🔗 [OCR-GAUN](https://github.com/manyuanQ/OCR-GAUN)  
+- 💬 **Sentiment Analysis of COVID-19 Policy Tweets**: Data preprocessing & NLP analysis  
+  🔗 [MisinformationandAntiAsianSentiment](https://github.com/manyuanQ/MisinformationandAntiAsianSentiment)
