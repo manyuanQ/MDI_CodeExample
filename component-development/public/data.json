@@ -1,0 +1,14 @@
+{
+    "chartData": [
+      { "month": "January", "value": 65 },
+      { "month": "February", "value": 59 },
+      { "month": "March", "value": 80 },
+      { "month": "April", "value": 75 }
+    ],
+    "tableData": [
+      { "id": 1, "name": "First", "value": 1000 },
+      { "id": 2, "name": "Second", "value": 2200 },
+      { "id": 3, "name": "Third", "value": 5000 }
+    ]
+  }
+  

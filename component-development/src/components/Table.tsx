@@ -7,23 +7,21 @@ interface TableProps {
 
 const Table: React.FC<TableProps> = ({ data, columns }) => {
   return (
-    <table role="table" aria-label="Data Table">
+    <table className="table" aria-label="Data Table">
       <thead>
-        <tr role="row">
-          {columns.map((column, index) => (
-            <th key={index} role="columnheader">
-              {column.header}
+        <tr>
+          {columns.map((col) => (
+            <th key={col.accessor} scope="col">
+              {col.header}
             </th>
           ))}
         </tr>
       </thead>
       <tbody>
         {data.map((row, rowIndex) => (
-          <tr key={rowIndex} role="row">
-            {columns.map((column, colIndex) => (
-              <td key={colIndex} role="cell">
-                {row[column.accessor]}
-              </td>
+          <tr key={rowIndex}>
+            {columns.map((col) => (
+              <td key={col.accessor}>{row[col.accessor]}</td>
             ))}
           </tr>
         ))}
